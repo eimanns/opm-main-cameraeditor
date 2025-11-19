@@ -4,17 +4,6 @@ In-game camera movement editor for open.mp servers. Create smooth camera interpo
 
 **Original by Drebin | Modified for open.mp**
 
-## Features
-
-- 🎮 **In-game fly mode** - Navigate freely with WASD
-- 🎥 **Two camera modes:**
-  - Interpolate Camera (smooth movement between two points)
-  - Static Camera (fixed position)
-- ⚡ **Real-time positioning** - See exactly where your camera will be
-- 💾 **Auto-export** - Generates ready-to-use PAWN code
-- 🔄 **Preview system** - Test your camera path before saving
-- ✏️ **Edit anytime** - Change start/end positions and speeds
-
 ## Installation
 
 1. **Download the script**
@@ -53,8 +42,8 @@ filterscripts CamEditor
 ### Creating Interpolate Camera (Moving)
 
 1. **Start editor**
-   ```
    ![Main Menu](image/editor_menu.png)
+   ```
    /cameditor
    ```
 
