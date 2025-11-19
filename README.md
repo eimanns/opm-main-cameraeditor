@@ -67,7 +67,7 @@ filterscripts CamEditor
    - Enter rotation speed (milliseconds)
 
    ![Movement](image/rotation_speed.png)
-   
+
    - *Recommended: 10000-20000ms for smooth intros*
 
 6. **Preview & Save**
@@ -146,21 +146,6 @@ function OnUserCheck(const playerid)
 }
 ```
 
-### Character Selection Example
-```pawn
-function ShowCharacterSelection(const playerid)
-{
-    SetSpawnInfo(playerid, NO_TEAM, 0, 315.0, -165.0, 999.6, 0.0, 0, 0, 0, 0, 0, 0);
-    SpawnPlayer(playerid);
-    
-    // Orbit around character
-    InterpolateCameraPos(playerid, 315.0, -168.0, 1002.0, 310.0, -162.0, 1002.0, 10000);
-    InterpolateCameraLookAt(playerid, 312.0, -165.0, 1000.5, 312.0, -165.0, 1000.5, 10000);
-    
-    return 1;
-}
-```
-
 ### Static Camera Example
 ```pawn
 function ShowStaticView(const playerid)
@@ -193,23 +178,6 @@ After setting positions, you'll see a menu with:
 
 ### Rotation Speed
 Usually match with movement speed for synchronized movement.
-
-## Tips
-
-### 1. Plan Your Path
-Think about what you want to show before positioning the camera.
-
-### 2. Use High Starting Points
-Starting from above and descending creates dramatic effects.
-
-### 3. Match Speeds
-Keep movement and rotation speeds similar for smooth animations.
-
-### 4. Test Multiple Times
-Use the preview feature to refine your camera path.
-
-### 5. Save Variations
-Create multiple versions with different speeds to find the best one.
 
 ## Common Use Cases
 
@@ -252,7 +220,7 @@ SetTimerEx("CompleteSpawn", 8000, false, "d", playerid);
 
 ### Filterscript not loading
 - Verify it's compiled (`.amx` file exists)
-- Check `server.cfg` has correct filterscript name
+- Check `config.json` has correct filterscript name
 - Look for compile errors in `server_log.txt`
 
 ### Editor won't close
