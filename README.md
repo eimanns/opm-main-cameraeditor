@@ -60,7 +60,9 @@ filterscripts CamEditor
    - Press **LMB** to save end position
 
 5. **Configure speeds**
+   ![Movement](image/movement_speed.png)
    - Enter movement speed (milliseconds)
+   ![Movement](image/rotation.png)
    - Enter rotation speed (milliseconds)
    - *Recommended: 10000-20000ms for smooth intros*
 
@@ -285,7 +287,7 @@ Sets static camera look direction.
 
 ## License
 
-Free to use and modify for your open.mp server.
+Free to use and modify for your open.mp server & and big thank to Drbein. 
 
 ## Support
 
