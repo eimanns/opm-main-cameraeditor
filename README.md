@@ -42,10 +42,10 @@ filterscripts CamEditor
 ### Creating Interpolate Camera (Moving)
 
 1. **Start editor**
-   ![Main Menu](image/editor_menu.png)
    ```
    /cameditor
    ```
+   ![Main Menu](image/editor_menu.png)
 
 2. **Choose mode**
    - Select "Interpolate Camera (Move)"
@@ -75,6 +75,7 @@ filterscripts CamEditor
    ```
    /cameditor
    ```
+   ![Main Menu](image/editor_menu.png)
 
 2. **Choose mode**
    - Select "Static Camera (Static)"
