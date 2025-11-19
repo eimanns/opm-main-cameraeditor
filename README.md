@@ -60,10 +60,10 @@ filterscripts CamEditor
    - Press **LMB** to save end position
 
 5. **Configure speeds**
-   ![Movement](image/movement_speed.png)
    - Enter movement speed (milliseconds)
-   ![Movement](image/rotation.png)
+   ![Movement](image/movement_speed.png)
    - Enter rotation speed (milliseconds)
+   ![Movement](image/rotation_speed.png)
    - *Recommended: 10000-20000ms for smooth intros*
 
 6. **Preview & Save**
