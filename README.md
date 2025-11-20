@@ -8,7 +8,7 @@ In-game camera movement editor for open.mp servers. Create smooth camera interpo
 
 1. **Download the script**
 ```bash
-git clone https://github.com/yourusername/CamEditor-openmp.git
+git clone https://github.com/eimanns/CamEditor-openmp.git
 ```
 
 2. **Place in filterscripts folder**
