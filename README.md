@@ -263,7 +263,7 @@ Free to use and modify for your open.mp server & and big thank to Drbein.
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/CamEditor-openmp/issues)
+- **Issues:** [GitHub Issues](https://github.com/eimanns/CamEditor-openmp/issues)
 - **open.mp Forum:** [forum.open.mp](https://forum.open.mp)
 
 ---
